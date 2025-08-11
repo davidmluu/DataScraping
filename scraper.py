@@ -20,4 +20,4 @@ for row in rows:
         all_books.append(book_data)
     # time.sleep(1)
 books_df = pd.concat(all_books)
-books_df.to_csv("top_novels.csv")
+books_df.to_csv("top_novels.csv", index=False)
